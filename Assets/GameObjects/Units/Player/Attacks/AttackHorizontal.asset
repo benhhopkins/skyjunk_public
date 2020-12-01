@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49491f6d3d5ef7c4c93fca61af7f6638, type: 3}
+  m_Name: AttackHorizontal
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 429997972687698837, guid: 00f96fa26a8d3aa4aa9781e6af87a322, type: 3}
+    - {fileID: 8948108644676761748, guid: c13567cf97a7c3b4d8d48e05b8ebec72, type: 3}
+    - {fileID: 8300000, guid: 756eba9416b7ce643a45343c29e8f0d0, type: 3}
+    - {fileID: 8300000, guid: 7c9ecc8badab1ee4a8c1590b88729893, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: attackState
+      Entry: 7
+      Data: 0|PlayerWindup, Assembly-CSharp
+    - Name: animationName
+      Entry: 1
+      Data: Windup
+    - Name: totalTime
+      Entry: 4
+      Data: 0.2
+    - Name: blendTime
+      Entry: 4
+      Data: 0.1
+    - Name: hitTime
+      Entry: 4
+      Data: -1
+    - Name: cancelTime
+      Entry: 4
+      Data: -1
+    - Name: restrictMovement
+      Entry: 5
+      Data: false
+    - Name: restrictRotation
+      Entry: 5
+      Data: true
+    - Name: nextState
+      Entry: 7
+      Data: 1|PlayerBaseAttack, Assembly-CSharp
+    - Name: animationName
+      Entry: 1
+      Data: AttackHorizontal
+    - Name: totalTime
+      Entry: 4
+      Data: 0.6
+    - Name: blendTime
+      Entry: 4
+      Data: 0
+    - Name: hitTime
+      Entry: 4
+      Data: 0.1
+    - Name: cancelTime
+      Entry: 4
+      Data: 0.2
+    - Name: restrictMovement
+      Entry: 5
+      Data: true
+    - Name: restrictRotation
+      Entry: 5
+      Data: true
+    - Name: nextState
+      Entry: 6
+      Data: 
+    - Name: dashSpeed
+      Entry: 4
+      Data: 10
+    - Name: hitTriggerPrefab
+      Entry: 10
+      Data: 0
+    - Name: slashEffectPrefab
+      Entry: 10
+      Data: 1
+    - Name: soundClip
+      Entry: 7
+      Data: 2|Utility.SoundClip, Assembly-CSharp
+    - Name: name
+      Entry: 6
+      Data: 
+    - Name: clips
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: volume
+      Entry: 4
+      Data: 1
+    - Name: pitch
+      Entry: 4
+      Data: 1
+    - Name: loop
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: soundClip
+      Entry: 7
+      Data: 4|Utility.SoundClip, Assembly-CSharp
+    - Name: name
+      Entry: 6
+      Data: 
+    - Name: clips
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: volume
+      Entry: 4
+      Data: 1
+    - Name: pitch
+      Entry: 4
+      Data: 1
+    - Name: loop
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
